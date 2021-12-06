@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/fbi-wanted-react/static/css/main.2789e805.chunk.css",
+    "main.js": "/fbi-wanted-react/static/js/main.864d38dd.chunk.js",
+    "main.js.map": "/fbi-wanted-react/static/js/main.864d38dd.chunk.js.map",
+    "runtime-main.js": "/fbi-wanted-react/static/js/runtime-main.1c8d01b0.js",
+    "runtime-main.js.map": "/fbi-wanted-react/static/js/runtime-main.1c8d01b0.js.map",
+    "static/css/2.383c0125.chunk.css": "/fbi-wanted-react/static/css/2.383c0125.chunk.css",
+    "static/js/2.311e0275.chunk.js": "/fbi-wanted-react/static/js/2.311e0275.chunk.js",
+    "static/js/2.311e0275.chunk.js.map": "/fbi-wanted-react/static/js/2.311e0275.chunk.js.map",
+    "index.html": "/fbi-wanted-react/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/fbi-wanted-react/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.2789e805.chunk.css.map": "/fbi-wanted-react/static/css/main.2789e805.chunk.css.map",
+    "static/js/2.311e0275.chunk.js.LICENSE.txt": "/fbi-wanted-react/static/js/2.311e0275.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/fbi-wanted-react/static/media/fbi-backgroundImg.3189b98a.png",
+    "static/media/Header.css": "/fbi-wanted-react/static/media/fbi-banner.815005ec.png",
+    "static/media/fbi-logo.9bc3d95b.png": "/fbi-wanted-react/static/media/fbi-logo.9bc3d95b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c8d01b0.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.311e0275.chunk.js",
+    "static/css/main.2789e805.chunk.css",
+    "static/js/main.864d38dd.chunk.js"
+  ]
+}
