@@ -1,0 +1,85 @@
+.wantedLayout-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.mostWanted-Container{
+    display: grid;
+    grid-template-columns: repeat(3,10fr);
+    gap: 50px;
+    justify-content: center;
+    padding: 5rem;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.criminaInfo-Container{
+    padding: 1rem;
+    text-align: left;
+}
+.most-wanted{
+    height: -webkit-fill-available;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255 255 255 / 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: -1px 2px 5px 2px rgb(255 255 255 / 31%);
+}
+
+.imgContainer{
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.imgContainer img{
+    border: 2px solid black;
+}
+
+.most-wanted p{
+   color: rgb(0, 0, 0);   
+   font-family: 'Domine', serif;
+}
+
+.Dis-Likes{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    border-top: 1px solid black;    
+    cursor: pointer;
+}
+
+.Dis-Likes img {    
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+}
+.like-false{
+    width: 100%;
+    border: 0.5px solid black;
+}
+
+.dislike-false{
+    width: 100%;
+    border: 0.5px solid black;
+}
+
+.like-false:hover{
+    background-color: rgba(0, 255, 21, 0.863);
+}
+
+.dislike-false:hover{
+    background-color: rgba(255, 66, 66, 0.808);
+}
+
+.dislike-style{
+    width: 100%;
+    background-color: rgba(255, 66, 66, 0.808);
+}
+
+.like-style{
+    width: 100%;
+    background-color: rgba(0, 255, 21, 0.863);
+} 

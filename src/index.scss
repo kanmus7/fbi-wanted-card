@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  body{
+      display: block;
+      background-image: url(./resources/fbi-backgroundImg.png);
+      backdrop-filter: blur(3px);
+      background-position: center;
+      background-size: auto;
+      background-repeat: repeat;
+  }
+
+  #root{
+    height: 100%;
+  }
+
+  .results-container{
+    text-align: center;
+  }
+
+  .spinner{    
+    width: 150px;
+    height: 150px;
+    font-size: xx-large;
+    margin: 10rem 0;
+  }
+
+@media screen and (max-width:850px) {
+
+  html, body{
+    min-width: 300px;
+  }
+
+  .fbi-logo{
+    height: 90px;
+    width: 90px;
+  }
+
+   .fullname{
+    font-size: 1rem;
+  }
+
+  .initials{
+    display: none;
+  }
+
+  .navbar>.container{
+    display: block;
+  }
+  
+  .filters-title{
+    display: none;
+  }
+
+  .navbar{
+    height: 90px;
+ }
+
+ .container{
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .navbar-text, #basic-nav-dropdown{
+   font-size: 15px;
+ }
+
+ .navbar-collapse{
+   flex-direction: row;
+ }
+
+ .navbar-brand{
+   display: none;
+ }
+
+ .navbar-nav {
+  height: 45px;
+}
+
+.me-auto {
+  margin-right: 0;
+}
+
+.mostWanted-Container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.most-wanted{
+  height: auto;
+}
+
+}
